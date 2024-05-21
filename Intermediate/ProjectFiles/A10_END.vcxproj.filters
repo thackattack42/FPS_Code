@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\A10_END.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{10E45B96-CE70-40BF-AC8C-A059B14ADB11}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\A10_END.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\A10_ENDEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{B2FE7C0E-86B7-4A3C-BF2D-91F4F4766A45}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\A10_END">
+      <UniqueIdentifier>{E3E1F3DB-DFC0-4F0E-A5C0-A2D35DEC6047}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\A10_END\A10_END.Build.cs">
+      <Filter>Source\A10_END</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\A10_END\A10_END.cpp">
+      <Filter>Source\A10_END</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\A10_END\A10_END.h">
+      <Filter>Source\A10_END</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\A10_END\A10_ENDGameModeBase.cpp">
+      <Filter>Source\A10_END</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\A10_END\A10_ENDGameModeBase.h">
+      <Filter>Source\A10_END</Filter>
+    </ClInclude>
+    <Filter Include="Source\A10_END\deleteMe">
+      <UniqueIdentifier>{2EAD3C30-FF62-4CBC-823E-47A32E23E526}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\A10_END\deleteMe\Error.cpp">
+      <Filter>Source\A10_END\deleteMe</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\A10_END\deleteMe\Error.h">
+      <Filter>Source\A10_END\deleteMe</Filter>
+    </ClInclude>
+    <Filter Include="Source\A10_END\Private">
+      <UniqueIdentifier>{E6021CE2-96CD-4D0E-A53E-746C4DEB39BC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\A10_END\Private\AnimationEventGraph.cpp">
+      <Filter>Source\A10_END\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\A10_END\Private\Actors">
+      <UniqueIdentifier>{55BD3512-1B0D-4BFA-8D03-8D87D2D3FE5E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\A10_END\Private\Actors\BaseBullet.cpp">
+      <Filter>Source\A10_END\Private\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\A10_END\Private\Actors\BaseEnemy.cpp">
+      <Filter>Source\A10_END\Private\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\A10_END\Private\Actors\BasePlayer.cpp">
+      <Filter>Source\A10_END\Private\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\A10_END\Private\Actors\BaseRifle.cpp">
+      <Filter>Source\A10_END\Private\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\A10_END\Private\Actors\CommonCharacter.cpp">
+      <Filter>Source\A10_END\Private\Actors</Filter>
+    </ClCompile>
+    <Filter Include="Source\A10_END\Private\AI">
+      <UniqueIdentifier>{20576922-9EF3-45F1-947C-5B951E514B58}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\A10_END\Private\AI\AIEnemyController.cpp">
+      <Filter>Source\A10_END\Private\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\A10_END\Private\AI\BTT_CodeFire.cpp">
+      <Filter>Source\A10_END\Private\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\A10_END\Private\AI\BTT_CodeReload.cpp">
+      <Filter>Source\A10_END\Private\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\A10_END\Private\AI\BTT_CodeWander.cpp">
+      <Filter>Source\A10_END\Private\AI</Filter>
+    </ClCompile>
+    <Filter Include="Source\A10_END\Private\AnimNotifies">
+      <UniqueIdentifier>{2570BDA4-6969-4470-A4FB-F873E5A23899}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\A10_END\Private\AnimNotifies\ActionEnded.cpp">
+      <Filter>Source\A10_END\Private\AnimNotifies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\A10_END\Private\AnimNotifies\ReloadAnimation.cpp">
+      <Filter>Source\A10_END\Private\AnimNotifies</Filter>
+    </ClCompile>
+    <Filter Include="Source\A10_END\Private\Components">
+      <UniqueIdentifier>{8C13DD20-5DA5-45D0-BF43-9D1018493CC3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\A10_END\Private\Components\HealthComponent.cpp">
+      <Filter>Source\A10_END\Private\Components</Filter>
+    </ClCompile>
+    <Filter Include="Source\A10_END\Private\Enums">
+      <UniqueIdentifier>{F7877E26-1CFC-4D9E-BEE9-B2C4477EF2C5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\A10_END\Private\Enums\ETypesCode.cpp">
+      <Filter>Source\A10_END\Private\Enums</Filter>
+    </ClCompile>
+    <Filter Include="Source\A10_END\Private\Expose">
+      <UniqueIdentifier>{C6ADED91-08DB-4DE5-8A81-24EB05649474}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\A10_END\Private\Expose\ExposeDefaultPawn.cpp">
+      <Filter>Source\A10_END\Private\Expose</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\A10_END\Private\Expose\ExposeFunction.cpp">
+      <Filter>Source\A10_END\Private\Expose</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\A10_END\Private\Expose\ExposeVariable.cpp">
+      <Filter>Source\A10_END\Private\Expose</Filter>
+    </ClCompile>
+    <Filter Include="Source\A10_END\Private\Utility">
+      <UniqueIdentifier>{F62ED403-5B10-481D-A912-81FDDF004E5E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\A10_END\Private\Utility\AIInterface.cpp">
+      <Filter>Source\A10_END\Private\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\A10_END\Private\Utility\BPI_DamageTypeCode.cpp">
+      <Filter>Source\A10_END\Private\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\A10_END\Private\Utility\FireDamage.cpp">
+      <Filter>Source\A10_END\Private\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\A10_END\Private\Utility\PlantDamage.cpp">
+      <Filter>Source\A10_END\Private\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\A10_END\Private\Utility\WaterDamage.cpp">
+      <Filter>Source\A10_END\Private\Utility</Filter>
+    </ClCompile>
+    <Filter Include="Source\A10_END\Private\Widgets">
+      <UniqueIdentifier>{23E3EAE6-AB0A-4C28-A384-C7F3828229A5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\A10_END\Private\Widgets\FeedbackWidget.cpp">
+      <Filter>Source\A10_END\Private\Widgets</Filter>
+    </ClCompile>
+    <Filter Include="Source\A10_END\Public">
+      <UniqueIdentifier>{971813ED-89BF-4D22-90CC-EBCB305E0822}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\A10_END\Public\AnimationEventGraph.h">
+      <Filter>Source\A10_END\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\A10_END\Public\Actors">
+      <UniqueIdentifier>{2DBA506A-B305-41BB-9B49-118260E4594D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\A10_END\Public\Actors\BaseBullet.h">
+      <Filter>Source\A10_END\Public\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\A10_END\Public\Actors\BaseEnemy.h">
+      <Filter>Source\A10_END\Public\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\A10_END\Public\Actors\BasePlayer.h">
+      <Filter>Source\A10_END\Public\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\A10_END\Public\Actors\BaseRifle.h">
+      <Filter>Source\A10_END\Public\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\A10_END\Public\Actors\CommonCharacter.h">
+      <Filter>Source\A10_END\Public\Actors</Filter>
+    </ClInclude>
+    <Filter Include="Source\A10_END\Public\AI">
+      <UniqueIdentifier>{4E258929-E970-4CA8-BA1F-66C0ED98D1B8}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\A10_END\Public\AI\AIEnemyController.h">
+      <Filter>Source\A10_END\Public\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\A10_END\Public\AI\BTT_CodeFire.h">
+      <Filter>Source\A10_END\Public\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\A10_END\Public\AI\BTT_CodeReload.h">
+      <Filter>Source\A10_END\Public\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\A10_END\Public\AI\BTT_CodeWander.h">
+      <Filter>Source\A10_END\Public\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\A10_END\Public\AnimNotifies">
+      <UniqueIdentifier>{BBF86EC6-8869-41E3-A997-7C20762161D8}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\A10_END\Public\AnimNotifies\ActionEnded.h">
+      <Filter>Source\A10_END\Public\AnimNotifies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\A10_END\Public\AnimNotifies\ReloadAnimation.h">
+      <Filter>Source\A10_END\Public\AnimNotifies</Filter>
+    </ClInclude>
+    <Filter Include="Source\A10_END\Public\Components">
+      <UniqueIdentifier>{46FAD33F-8F0C-4741-95AD-CBF87B4C2881}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\A10_END\Public\Components\HealthComponent.h">
+      <Filter>Source\A10_END\Public\Components</Filter>
+    </ClInclude>
+    <Filter Include="Source\A10_END\Public\Enums">
+      <UniqueIdentifier>{4DB6615B-AD21-47B7-B1BB-042BEEEC8442}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\A10_END\Public\Enums\ETypesCode.h">
+      <Filter>Source\A10_END\Public\Enums</Filter>
+    </ClInclude>
+    <Filter Include="Source\A10_END\Public\Expose">
+      <UniqueIdentifier>{550AF2B9-54DF-4CA5-9D86-D4920B0F3F8C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\A10_END\Public\Expose\ExposeDefaultPawn.h">
+      <Filter>Source\A10_END\Public\Expose</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\A10_END\Public\Expose\ExposeFunction.h">
+      <Filter>Source\A10_END\Public\Expose</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\A10_END\Public\Expose\ExposeVariable.h">
+      <Filter>Source\A10_END\Public\Expose</Filter>
+    </ClInclude>
+    <Filter Include="Source\A10_END\Public\Utility">
+      <UniqueIdentifier>{F1F4E32F-21B2-406D-9FAD-B75E05DBB5BB}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\A10_END\Public\Utility\AIInterface.h">
+      <Filter>Source\A10_END\Public\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\A10_END\Public\Utility\BPI_DamageTypeCode.h">
+      <Filter>Source\A10_END\Public\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\A10_END\Public\Utility\FireDamage.h">
+      <Filter>Source\A10_END\Public\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\A10_END\Public\Utility\PlantDamage.h">
+      <Filter>Source\A10_END\Public\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\A10_END\Public\Utility\WaterDamage.h">
+      <Filter>Source\A10_END\Public\Utility</Filter>
+    </ClInclude>
+    <Filter Include="Source\A10_END\Public\Widgets">
+      <UniqueIdentifier>{6405B9C0-04CD-4CD4-9A20-35823FD453E0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\A10_END\Public\Widgets\FeedbackWidget.h">
+      <Filter>Source\A10_END\Public\Widgets</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

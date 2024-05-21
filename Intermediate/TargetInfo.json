@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "A10_END",
+			"Path": "D:\\Users\\Chase\\Documents\\School\\Month 16\\END\\A10_END\\Source\\A10_END.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "A10_ENDEditor",
+			"Path": "D:\\Users\\Chase\\Documents\\School\\Month 16\\END\\A10_END\\Source\\A10_ENDEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
